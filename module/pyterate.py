@@ -79,8 +79,6 @@ def chrlist(list): #int list to chr
 if __name__=="__main__":
 	print("""
 Module: Pyterate
-Version: v0.0.1
-Author: Bagus Prasetyo
 Desc: Iterate datatypes into ordinal from list and etc.""")
 	print("\nexample:")
 	x = ordstr('hello')
