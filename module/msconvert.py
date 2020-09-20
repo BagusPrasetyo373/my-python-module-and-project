@@ -1,6 +1,3 @@
-#package created by Bagus Prasetyo
-# Email : bagusidm373@gmail.com
-
 class Second:
 	def sec_to_ms(int):
 		if int is None:
