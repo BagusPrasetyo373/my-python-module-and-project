@@ -1,3 +1,5 @@
+#unfinished yet :(
+
 class bit:
 	def byte(i):
 		return i / 8
@@ -27,7 +29,4 @@ class kilobit:
 		return i / 8000
 if __name__ == "__main__":
 	print("~-PyDataConv-~")
-	print("version: v0.0.1")
 	print("description: convert or calculate data for example like x bit to byte etc.")
-	print("author: Bagus Prasetyo")
-	print("email: bagusidm373@gmail.com")
