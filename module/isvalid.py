@@ -15,6 +15,6 @@ def is_str(x):
 #regex is so useful for these type of checking
 def is_valid_email(email, type): 
 	if is_str(email) == True and is_str(type):
-		if re.search(fr"^[a-zA-Z0-9]*[@]+[{type}]+[.]+(com|org|net)$",email): return True
+		if re.search(fr"^[a-zA-Z0-9]*[@]+[{type}]+[.]+[com]$",email): return True
 		else: return False
 	else: return False
