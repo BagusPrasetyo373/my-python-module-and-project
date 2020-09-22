@@ -1,4 +1,4 @@
-# my-python-module-and-project
+# python-module-project
 my work like module and project.
 
 ### Instruction:
