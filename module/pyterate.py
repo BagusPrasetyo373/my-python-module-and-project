@@ -76,13 +76,3 @@ def chrlist(list): #int list to chr
 			chrlist_chr = chr(chrlist_int)
 			chrlist_output.append(chrlist_chr)
 	return chrlist_output
-if __name__=="__main__":
-	print("""
-Module: Pyterate
-Desc: Iterate datatypes into ordinal from list and etc.""")
-	print("\nexample:")
-	x = ordstr('hello')
-	y = chrlist(x)
-	print(f"x is {x}")
-	print(f"y({y}) is iteration of x({x})")
-	print(f"iterable list x({x}) iterated with y is {y}")
