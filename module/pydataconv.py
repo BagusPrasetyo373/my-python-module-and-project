@@ -27,6 +27,3 @@ class kilobit:
 		return i / 1000
 	def megabyte(i):
 		return i / 8000
-if __name__ == "__main__":
-	print("~-PyDataConv-~")
-	print("description: convert or calculate data for example like x bit to byte etc.")
