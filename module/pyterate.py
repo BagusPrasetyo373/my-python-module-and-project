@@ -76,3 +76,13 @@ def chrlist(list): #int list to chr
 			chrlist_chr = chr(chrlist_int)
 			chrlist_output.append(chrlist_chr)
 	return chrlist_output
+
+def intmerge(list):
+	x = ''
+	strl = []
+	for i in range(0,len(list)):
+		i += 1
+		strl.append(str(list[i - 1]))
+		x += strl[i - 1]
+	y = int(x)
+	return y
